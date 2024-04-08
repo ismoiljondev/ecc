@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Elliptik egri chiziq operatsiyalar</title>
+		<link rel="stylesheet" href="./main.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Elliptik egri chiziq operatsiyalar</h1>
+			<div class="input-container">
+				<label for="pointP">P ning koordiatalarini kiriting:</label>
+				<div>
+					<input type="number" id="pointPx" placeholder="X:" />
+					<input type="number" id="pointPy" placeholder="Y:" />
+				</div>
+			</div>
+			<div class="input-container">
+				<label for="pointQ">Q ning koordiatalarini kiriting:</label>
+				<div>
+					<input type="number" id="pointQx" placeholder="X:" />
+					<input type="number" id="pointQy" placeholder="Y:" />
+				</div>
+			</div>
+			<button onclick="computeResults()">Natija:</button>
+			<div id="results"></div>
+		</div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
